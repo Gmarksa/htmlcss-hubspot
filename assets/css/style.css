@@ -2,11 +2,17 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
+    font-family: 'Montserrat', sans-serif;
 }
 
 a{
     text-decoration: none;
     color: inherit;
+}
+
+h1{
+    font-size: 3em;
 }
 
 /* Utility */
@@ -15,18 +21,110 @@ a{
     text-align: right;
 }
 
-.Container{
-    width: 80%;
+.txt_default_color{
+    color: #33475b;
+}
+
+.fw_500{
+    font-weight: 500;
+}
+
+.mb_20{
+    margin-bottom: 20px;
+}
+
+.ml_20{
+    margin-left: 20px;
+}
+
+.mr_20{
+    margin-right: 20px;
+}
+
+.pt_60{
+    padding-top: 60px;
+}
+
+.Center{
+    text-align: center;
+}
+
+.half_width{
+    width: 50%;
+}
+
+.wd_65{
+    width: 65%;
+
     margin: auto;
+}
+
+.btn{
+    background-color: #fe775a;
+    border-radius: 5px;
+
+    padding: 10px;
+
+    color: white;
+}
+
+.btn_white{
+    background-color:white;
+    border-radius: 5px;
+
+    padding: 10px;
+
+    color: #fe775a;
+    border: 1px solid #fe775a;
+}
+
+.Clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* ------ */
+
+.Container{
+    width: 70%;
+    margin: auto;
+}
+
+#Search_Img{
+    height: 15px;
+}
+
+#Globe_Img{
+    height: 15px;
+    display: inline-block;
+}
+
+#Cube_Img{
+    height: 250px;
+
+/*     height: 25%; */
+
+/*     display: block;
+    margin: auto; */
 }
 
 #Top_Nav{
     height: 80px;
     background-color: #f4f9fd;
+
+/*     line-height: 80px; */
 }
 
 #Bottom_Nav{
     height: 80px;
+    line-height: 80px;
+}
+
+#Bottom_Menu{
+    width: 100%;
+
+    display: inline-block;
 }
 
 .jumbotron{
@@ -34,5 +132,40 @@ a{
     background-image: url("../img/jumbotron.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 100% 60%;
+    background-position: 100% 65%;
+}
+
+.empty_div{
+    height: 100px;
+    background-color: #afebe4;
+
+    border-top: 3px solid #33475b;
+    border-bottom: 3px solid #33475b;
+}
+
+.idk{
+    background-color: #f4f9fd;
+    height: 1200px;
+}
+
+.Card{
+    background-color: white;
+    box-shadow: 0px 0px 1px;
+    border-radius: 5px;
+
+    float: left;
+}
+
+/* Rimuovere altezze fisse dopo aver inserito tutto il contenuto  */
+
+.Vertical_Card{
+    width: 100%;
+    height: 250px;
+}
+
+.Horizontal_Card{
+    width: 25%;
+    height: 450px;
+
+/*     margin-right: 8%; */
 }

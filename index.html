@@ -5,23 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Hubspot</title>
 </head>
 <body>
     <!-- Header -->
     <header>
-        <nav>
+        <nav class="txt_default_color">
             <div id="Top_Nav">
                 <div class="Container">
                     <div>
-                        <img src="./assets/img/globe.svg" alt="">
+                        <img id="Globe_Img" src="./assets/img/globe.svg" alt="">
+                        <a href="#">English <i class="fas fa-chevron-down"></i></a>
+                        <i class="far fa-window-minimize" style="transform: rotate(90deg);"></i>
                         <a href="#">Contact Us</a>
                     </div>
 
                     <div class="txt_align_r">
-                        <a href="#">Login</a>
-                        <a href="#">GetHubspotFree</a>
+                        <a href="#">
+                            <img id="Search_Img" src="./assets/img/search-20icon.webp" alt="">
+                        </a>
+                        <a href="#" class="btn_white">Login</a>
+                        <a href="#" class="btn">GetHubspotFree</a>
                     </div>
                 </div>
             </div>
@@ -30,35 +37,69 @@
 
             <div id="Bottom_Nav">
                 <div class="Container">
-                    <img src="./assets/img/logo.svg" alt="Logo Hubspot">
+<!--                     <img src="./assets/img/logo.svg" alt="Logo Hubspot"> -->
 
-                    <div class="txt_align_r">
-                        <a href="#">Software <i class="fas fa-chevron-down"></i></a>
-                        <a href="#">Pricing <i class="fas fa-chevron-down"></i></a>
-                        <a href="#">Resources <i class="fas fa-chevron-down"></i></a>
-                        <a href="#">Partners <i class="fas fa-chevron-down"></i></a>
-                        <a href="#">About <i class="fas fa-chevron-down"></i></a>
+                    <div id="Bottom_Menu" class="txt_align_r">
+                        <a href="#" class="mr_20">Software <i class="fas fa-chevron-down ml_20"></i></a>
+                        <a href="#" class="mr_20">Pricing</a>
+                        <a href="#" class="mr_20">Resources <i class="fas fa-chevron-down ml_20"></i></a>
+                        <a href="#" class="mr_20">Partners <i class="fas fa-chevron-down ml_20"></i></a>
+                        <a href="#" class="mr_20">About <i class="fas fa-chevron-down ml_20"></i></a>
                     </div>
                 </div>
             </div>
 
-            <div class="jumbotron">
+            <div class="pt_60 jumbotron">
                 <div class="Container">
-                    <h1>
-                        Text Text Text
-                    </h1>
-    
-                    <p>
-                        Marketing bla bla bla
-                    </p>
-    
-                    <span class="btn"></span>
-    
-                    <span>Get started with free bla bla bla</span>
+                    <div class="half_width">
+                        <h1 class="mb_20">
+                            There's a better way to grow.
+                        </h1>
+        
+                        <p class="fw_500 mb_20">
+                            Marketing, sales, and service software that helps your business grow without compromise. 
+                            Because "good for business" should also mean "good for the customer."
+                        </p>
+        
+                        <a href="#" style="display: inline-block;" class="btn mb_20">GetHubspotFree</a>
+                        <div style="font-size: 12px;">Get started with FREE tools, and upgrade as you grow.</div>
+                    </div>
                 </div>
             </div>
         </nav>
     </header>
+
+    
+    <main>
+        <!-- Sezione Vuota -->
+        <div class="empty_div"></div>
+        
+        <!-- Sezione Powerful Alone -->
+        <div class="idk pt_60 txt_default_color">
+            <div class="Container">
+                <div class="wd_65 Center">
+                    <img id="Cube_Img" src="./assets/img/cube.webp" alt="">
+                    <h2 class="mb_20">
+                        Powerful Alone. Better Together.
+                    </h2>
+                    <p class="mb_20">
+                        HubSpot offers a full stack of software for marketing, sales, and customer service, with a completely free CRM at its core. 
+                        They're powerful alone - but even better when used together.
+                    </p>
+                </div>
+                
+                <div class="Card Vertical_Card mb_20">
+
+                </div>
+
+                <div class="Card Horizontal_Card Clearfix"></div>
+                <div class="Card Horizontal_Card Clearfix"></div>
+                <div class="Card Horizontal_Card Clearfix"></div>
+            </div>
+        </div>
+
+    </main>
+    
 
 
 </body>
