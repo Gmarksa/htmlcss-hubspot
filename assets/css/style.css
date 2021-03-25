@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Utility */
+
+.txt_align_r{
+    text-align: right;
+}
+
+.Container{
+    width: 80%;
+    margin: auto;
+}
+
+#Top_Nav{
+    height: 80px;
+    background-color: #f4f9fd;
+}
+
+#Bottom_Nav{
+    height: 80px;
+}
+
+.jumbotron{
+    height: 600px;
+    background-image: url("../img/jumbotron.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 60%;
+}
