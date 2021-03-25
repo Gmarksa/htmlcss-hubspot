@@ -59,6 +59,10 @@ h1{
     margin: auto;
 }
 
+.Vertical_Line{
+    border-left: 1px solid black;
+}
+
 .btn{
     background-color: #fe775a;
     border-radius: 5px;
@@ -97,34 +101,24 @@ h1{
 
 #Globe_Img{
     height: 15px;
-    display: inline-block;
+    padding-top: 3px;
 }
 
 #Cube_Img{
     height: 250px;
-
-/*     height: 25%; */
-
-/*     display: block;
-    margin: auto; */
 }
 
 #Top_Nav{
     height: 80px;
     background-color: #f4f9fd;
-
-/*     line-height: 80px; */
 }
 
 #Bottom_Nav{
     height: 80px;
-    line-height: 80px;
 }
 
-#Bottom_Menu{
-    width: 100%;
-
-    display: inline-block;
+.Nav_Center > img{
+    margin-top: 25px;
 }
 
 .jumbotron{
@@ -157,6 +151,13 @@ h1{
 }
 
 /* Rimuovere altezze fisse dopo aver inserito tutto il contenuto  */
+
+.Nav_Center{
+    width: 50%;
+    line-height: 80px;
+
+    float: left;
+}
 
 .Vertical_Card{
     width: 100%;
