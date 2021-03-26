@@ -6,6 +6,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body{
+	min-width: 1200px;
+}
+
 a{
     text-decoration: none;
     color: inherit;
@@ -27,6 +31,10 @@ h1{
 
 .fw_500{
     font-weight: 500;
+}
+
+.mt_20{
+    margin-top: 20px;
 }
 
 .mb_20{
@@ -63,6 +71,11 @@ h1{
     border-left: 1px solid black;
 }
 
+.Horizontal_Line{
+    width: 100px;
+    color: black;
+}
+
 .btn{
     background-color: #fe775a;
     border-radius: 5px;
@@ -82,6 +95,10 @@ h1{
     border: 1px solid #fe775a;
 }
 
+.Float_Left{
+    float: left;
+}
+
 .Clearfix::after{
     content: '';
     display: table;
@@ -97,11 +114,6 @@ h1{
 
 #Search_Img{
     height: 15px;
-}
-
-#Globe_Img{
-    height: 15px;
-    padding-top: 3px;
 }
 
 #Cube_Img{
@@ -150,8 +162,6 @@ h1{
     float: left;
 }
 
-/* Rimuovere altezze fisse dopo aver inserito tutto il contenuto  */
-
 .Nav_Center{
     width: 50%;
     line-height: 80px;
@@ -159,14 +169,78 @@ h1{
     float: left;
 }
 
-.Vertical_Card{
+.Horizontal_Card{
     width: 100%;
-    height: 250px;
+
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
-.Horizontal_Card{
-    width: 25%;
+/* Rimuovere altezze fisse dopo aver inserito tutto il contenuto  */
+
+.Vertical_Card{
+    width: calc(100%/4);
     height: 450px;
 
-/*     margin-right: 8%; */
+/*     margin-right: 9%; */
+}
+
+.small_imgs{
+    height: 100px;
+
+    display: block;
+    margin: auto;
+}
+
+#ld{
+    width: 35%;
+    text-align: center;
+}
+
+#rd{
+    width: 55%;
+}
+
+
+.shish{
+    background-color: #fe775a;
+    border-radius: 50%;
+    padding: 2px 5px;
+
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+
+    margin-right: 10px;
+}
+
+.Blue_Gradient{
+    background-image: linear-gradient(to right top, #00abb7, #00afb5, #00b3b1, #00b7ad, #00bba7);
+    color: white;
+
+    height: 600px;
+}
+
+.BG_White{
+    height: 600px;
+    background-color: white;
+}
+
+footer{
+    height: 450px;
+    background-color: #32495b;
+}
+
+#Card_Centrale{
+    margin-left: calc(25%/2);
+    margin-right: calc(25%/2);
+}
+
+.Icons_Top, .Icons_Bottom{
+    width: 100%;
+}
+
+.wd_25{
+    width: 25%;
+    float: left;
 }
