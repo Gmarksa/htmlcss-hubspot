@@ -41,6 +41,10 @@ h1{
     margin-bottom: 20px;
 }
 
+.mb_40{
+    margin-bottom: 40px;
+}
+
 .ml_20{
     margin-left: 20px;
 }
@@ -95,6 +99,10 @@ h1{
     border: 1px solid #fe775a;
 }
 
+.inline_block{
+    display: inline-block;
+}
+
 .Float_Left{
     float: left;
 }
@@ -134,11 +142,12 @@ h1{
 }
 
 .jumbotron{
-    height: 600px;
+    height: 610px;
+
     background-image: url("../img/jumbotron.png");
-    background-size: cover;
+    background-position: top right;
     background-repeat: no-repeat;
-    background-position: 100% 65%;
+    background-color: #fff5ee;
 }
 
 .empty_div{
@@ -164,6 +173,7 @@ h1{
 
 .Nav_Center{
     width: 50%;
+    font-weight: 500;
     line-height: 80px;
 
     float: left;
@@ -182,7 +192,7 @@ h1{
     width: calc(100%/4);
     height: 450px;
 
-/*     margin-right: 9%; */
+    text-align: center;
 }
 
 .small_imgs{
@@ -205,7 +215,7 @@ h1{
 .shish{
     background-color: #fe775a;
     border-radius: 50%;
-    padding: 2px 5px;
+    padding: 1px 4px;
 
     font-size: 12px;
     font-weight: bold;
@@ -218,7 +228,12 @@ h1{
     background-image: linear-gradient(to right top, #00abb7, #00afb5, #00b3b1, #00b7ad, #00bba7);
     color: white;
 
-    height: 600px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.Blue_Gradient h2{
+    font-size: 2em;
 }
 
 .BG_White{
@@ -240,7 +255,44 @@ footer{
     width: 100%;
 }
 
+.Icons_Top{
+    margin-top: 80px;
+/*     padding: 30px; */
+}
+
+.Icons_Top > div{
+    border-bottom: 1px solid white;
+}
+
 .wd_25{
     width: 25%;
     float: left;
+}
+
+.bordo_destro{
+    border-right: 1px solid #fff;
+}
+
+.pd_30{
+    padding: 30px;
+}
+
+.Partners{
+    height: 30px;
+}
+
+.wd_80{
+    width: 80%;
+    margin: auto;
+
+    margin-top: 50px;
+    margin-bottom: 85px;
+}
+
+ .wd_80 > div:first-child{
+     width: 20%;
+ }
+
+.BG_White h2{
+    font-size: 2em;
 }
