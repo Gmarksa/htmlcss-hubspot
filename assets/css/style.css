@@ -21,6 +21,14 @@ h1{
 
 /* Utility */
 
+.Center{
+    text-align: center;
+}
+
+.txt_align_l{
+    text-align: left;
+}
+
 .txt_align_r{
     text-align: right;
 }
@@ -57,8 +65,8 @@ h1{
     padding-top: 60px;
 }
 
-.Center{
-    text-align: center;
+.wd_25{
+    width: 25%;
 }
 
 .half_width{
@@ -67,8 +75,17 @@ h1{
 
 .wd_65{
     width: 65%;
-
     margin: auto;
+}
+
+.width_80{
+    width: 80%;
+    padding-top: 25px;
+    margin: auto;
+}
+
+.pd_30{
+    padding: 30px;
 }
 
 .Vertical_Line{
@@ -97,10 +114,6 @@ h1{
 
     color: #fe775a;
     border: 1px solid #fe775a;
-}
-
-.inline_block{
-    display: inline-block;
 }
 
 .Float_Left{
@@ -160,15 +173,21 @@ h1{
 
 .idk{
     background-color: #f4f9fd;
-    height: 1200px;
+    padding-bottom: 40px;
 }
 
 .Card{
     background-color: white;
     box-shadow: 0px 0px 1px;
     border-radius: 5px;
+    padding-bottom: 30px;
 
     float: left;
+}
+
+.Card i{
+    color: #fe775a;
+    margin-right: 10px;
 }
 
 .Nav_Center{
@@ -189,9 +208,7 @@ h1{
 /* Rimuovere altezze fisse dopo aver inserito tutto il contenuto  */
 
 .Vertical_Card{
-    width: calc(100%/4);
-    height: 450px;
-
+    width: 30%;
     text-align: center;
 }
 
@@ -211,19 +228,6 @@ h1{
     width: 55%;
 }
 
-
-.shish{
-    background-color: #fe775a;
-    border-radius: 50%;
-    padding: 1px 4px;
-
-    font-size: 12px;
-    font-weight: bold;
-    color: white;
-
-    margin-right: 10px;
-}
-
 .Blue_Gradient{
     background-image: linear-gradient(to right top, #00abb7, #00afb5, #00b3b1, #00b7ad, #00bba7);
     color: white;
@@ -241,14 +245,9 @@ h1{
     background-color: white;
 }
 
-footer{
-    height: 450px;
-    background-color: #32495b;
-}
-
 #Card_Centrale{
-    margin-left: calc(25%/2);
-    margin-right: calc(25%/2);
+    margin-left: calc(10%/2);
+    margin-right: calc(10%/2);
 }
 
 .Icons_Top, .Icons_Bottom{
@@ -264,35 +263,92 @@ footer{
     border-bottom: 1px solid white;
 }
 
-.wd_25{
-    width: 25%;
-    float: left;
-}
-
 .bordo_destro{
     border-right: 1px solid #fff;
 }
 
-.pd_30{
-    padding: 30px;
+.Partners_Img{
+    width: 120px;
+    margin-right: 35px;
+    vertical-align: middle;
 }
 
-.Partners{
-    height: 30px;
-}
-
-.wd_80{
-    width: 80%;
-    margin: auto;
-
+.wd_90{
+    width: 90%;
     margin-top: 50px;
+    margin-left: 8%;
     margin-bottom: 85px;
 }
 
- .wd_80 > div:first-child{
+ .wd_90 > div:first-child{
      width: 20%;
  }
 
 .BG_White h2{
     font-size: 2em;
+}
+
+footer{
+    background-color: #32495b;
+    color: #cbd6e2;
+    padding-bottom: 40px;
+
+    font-weight: 600;
+}
+
+footer h4{
+    color: white;
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+footer .wd_25 a{
+    display: block;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.Horizontal_Card h3::after{
+    content: '';
+    width: 65%;
+    border-top: 2px solid #899397;
+    margin-left: 40px;
+
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#Lingue_Footer{
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+}
+
+#Copyright{
+    color: white;
+}
+
+#Logo_Footer{
+    filter: opacity(0.7);
+}
+
+.btn_footer{
+    background-color: #DADEE0;
+    color: #32495B;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+#Partners_Div{
+    width: 78%;
+}
+
+.Vertical_Card p::after{
+    content: '';
+    width: 100%;
+    border-top: 2px solid #899397;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    display: inline-block;
+    vertical-align: middle;
 }
