@@ -116,6 +116,18 @@ h1{
     border: 1px solid #fe775a;
 }
 
+.btn_largo{
+    display: inline-block;
+    padding: 20px 40px;
+}
+
+.btn_footer{
+    background-color: #DADEE0;
+    color: #32495B;
+    padding: 8px;
+    border-radius: 5px;
+}
+
 .Float_Left{
     float: left;
 }
@@ -212,6 +224,16 @@ h1{
     text-align: center;
 }
 
+.Vertical_Card p::after{
+    content: '';
+    width: 100%;
+    border-top: 2px solid #899397;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .small_imgs{
     height: 100px;
 
@@ -241,8 +263,8 @@ h1{
 }
 
 .BG_White{
-    height: 600px;
     background-color: white;
+    padding-bottom: 40px;
 }
 
 #Card_Centrale{
@@ -332,23 +354,6 @@ footer .wd_25 a{
     filter: opacity(0.7);
 }
 
-.btn_footer{
-    background-color: #DADEE0;
-    color: #32495B;
-    padding: 8px;
-    border-radius: 5px;
-}
-
 #Partners_Div{
     width: 78%;
-}
-
-.Vertical_Card p::after{
-    content: '';
-    width: 100%;
-    border-top: 2px solid #899397;
-    margin-top: 60px;
-    margin-bottom: 20px;
-    display: inline-block;
-    vertical-align: middle;
 }
